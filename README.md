@@ -22,11 +22,11 @@
 	
 ## Getting Started
 
-NOTE: This assumes you already have the necessary programs (i.e. Git, Node.js, MongoDB, PhantomJS) installed; see [here for Mac](core-default-node/templates/docs/setup-running/server-mac.md) or [here for Windows](core-default-node/templates/docs/setup-running/server-windows.md) or [here for Linux](core-default-node/templates/docs/setup-running/server-linux.md)
+NOTE: This was edited according to steps required to make this work correctly on c9.io IDE. Be sure to use nvm install and nvm use to change your node to the correct version. 
 
 Install Yeoman Yo, Bower, Grunt and other global node modules we'll need, if you don't have them already:
 ```
-$ npm install -g yo bower grunt-cli jasmine-node karma yuidocjs forever less
+$ sudo npm install -g yo bower grunt-cli jasmine-node karma yuidocjs forever less
 ```
 
 Install this generator:
